@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MIREAPROJECT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="hint1">Введите первое число</string>
+    <string name="hint2">Введите второе число</string>
+    <string name="cal">Калькулятор</string>
+    <string name="web">Браузер</string>
+    <string name="player">Плеер</string>
+    <string name="datchik">Датчик</string>
+    <string name="photo">Фото</string>
+    <string name="audio">Аудио</string>
+    <string name="razresheniya">Разрешения</string>
+    <string name="settings">Настройки</string>
+    <string name="history">История</string>
+    <string name="hint_user_id">User ID</string>
+    <string name="sign_in">Войти</string>
+    <string name="create_account">Создать Аккаунт</string>
+    <string name="sign_out">Выйти</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="signed_in">Вошел</string>
+    <string name="signed_out">Вышел</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s</string>
+    <string name="retrofit">Ретрофит</string>
+    <string name="map">Карта</string>
+    <string name="DB">База Данных</string>
+</resources>

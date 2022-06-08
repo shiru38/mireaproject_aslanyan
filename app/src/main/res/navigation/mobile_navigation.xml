@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.calculator.CalculatorFragment"
+        android:label="@string/cal"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_web"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.web.WebFragment"
+        android:label="@string/web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.player.playerFragment"
+        android:label="playerFragment" />
+    <fragment
+        android:id="@+id/datchikFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.Datchiki.DatchikFragment"
+        android:label="fragment_datchik"
+        tools:layout="@layout/fragment_datchik" />
+    <fragment
+        android:id="@+id/makePhotoFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.Photo.MakePhotoFragment"
+        android:label="fragment_makephoto"
+        tools:layout="@layout/fragment_makephoto" />
+    <fragment
+        android:id="@+id/fragmentAudio"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.Audio.FragmentAudio"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/razresheniyaFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.Razresheniya.RazresheniyaFragment"
+        android:label="fragment_razresheniya"
+        tools:layout="@layout/fragment_razresheniya" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.settings.settingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.history.historyFragment"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/retrofitFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.retrofit.RetrofitFragment"
+        android:label="fragment_retrofit"
+        tools:layout="@layout/fragment_retrofit" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.maps.mapFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/DBFragment"
+        android:name="ru.mirea.aslanyan.mireaproject.ui.DB.DBFragment"
+        android:label="fragment_database"
+        tools:layout="@layout/fragment_database" />
+
+
+</navigation>

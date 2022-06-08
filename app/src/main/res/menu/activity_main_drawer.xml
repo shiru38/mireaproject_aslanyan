@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_ca">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@color/purple_200"
+            android:title="@string/cal" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@color/purple_200"
+            android:title="@string/web" />
+
+        <item
+            android:id="@+id/playerFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/player" />
+
+        <item
+            android:id="@+id/datchikFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/datchik" />
+
+        <item
+            android:id="@+id/makePhotoFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/photo" />
+
+        <item
+            android:id="@+id/fragmentAudio"
+            android:icon="@color/purple_200"
+            android:title="@string/audio" />
+
+        <item
+            android:id="@+id/razresheniyaFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/razresheniya" />
+
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/historyFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/history" />
+
+        <item
+            android:id="@+id/retrofitFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/retrofit" />
+
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/map" />
+
+        <item
+            android:id="@+id/DBFragment"
+            android:icon="@color/purple_200"
+            android:title="@string/DB" />
+    </group>
+</menu>
